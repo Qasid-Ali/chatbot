@@ -6,14 +6,14 @@ const nextConfig = {
   // i18n,
   // reactStrictMode: true,
 
-  webpack(config, { isServer, dev }) {
-    config.experiments = {
-      asyncWebAssembly: true,
-      layers: true,
-    };
+  // webpack(config, { isServer, dev }) {
+  //   config.experiments = {
+  //     asyncWebAssembly: true,
+  //     layers: true,
+  //   };
 
-    return config;
-  },
+  //   return config;
+  // },
 };
 
 module.exports = nextConfig;
